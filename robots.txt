@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://shulyakevgeny.github.io/sitemap.xml
+Sitemap: https://evgenbl.github.io/sitemap.xml
 
 
 
