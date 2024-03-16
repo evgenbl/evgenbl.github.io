@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+
+Sitemap: https://shulyakevgeny.github.io/sitemap.xml
+
+
+
+
