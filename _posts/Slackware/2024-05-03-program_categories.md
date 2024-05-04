@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Выбор категорий программ для установки
+title: Выбор категорий программ для установки в Slackware
 category: Slackware
 ---
 

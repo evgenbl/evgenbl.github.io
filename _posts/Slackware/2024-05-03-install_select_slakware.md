@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Меню install при установке программ
+title: Меню install при установке программ в Slackware
 category: Slackware
 ---
 
