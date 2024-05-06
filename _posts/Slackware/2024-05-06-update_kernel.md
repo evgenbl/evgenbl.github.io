@@ -29,7 +29,7 @@ category: Slackware
 
 - lilo
 
--  mkinitrd -c -k 5.15.145 -m ext4 -r /dev/sda2 -f ext4 (смотрите версию своего ядра и номер корневого раздела.У меня это /dev/sda2)
+-  mkinitrd -c -k 5.15.145 -m ext4 -r /dev/sda2 -f ext4 (смотрите версию своего ядра - мое ядро 5.15.145 и номер корневого раздела.У меня это /dev/sda2)
 
 - lilo
 
