@@ -8,7 +8,7 @@ category: Slackware
 
 (Обновлял ядра в версиях 14.2 и 15)
 
-1) /usr/share/mkinitrd/mkinitrd_command_generator.sh -k 5.4.72 | bash
+1) /usr/share/mkinitrd/mkinitrd_command_generator.sh -k 5.4.72 \| bash
 
 2) mkinitrd -c -k 5.4.72 -m ext4 -r /dev/sdd2 -f ext4
 
