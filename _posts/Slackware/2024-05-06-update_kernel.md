@@ -8,9 +8,9 @@ category: Slackware
 
 (Обновлял ядра в версиях 14.2 и 15)
 
-1) /usr/share/mkinitrd/mkinitrd_command_generator.sh -k 5.4.72 \| bash
+1) /usr/share/mkinitrd/mkinitrd_command_generator.sh -k 5.15.145 \| bash
 
-2) mkinitrd -c -k 5.4.72 -m ext4 -r /dev/sdd2 -f ext4
+2) mkinitrd -c -k 5.15.145 -m ext4 -r /dev/sda2 -f ext4
 
 Но они не очень удобны тем, что нужно предварительно посмотреть на версию свежеустановленного ядра, чтобы указать ее в параметрах и не опечататься, равно как и в других параметрах.
 
@@ -29,7 +29,7 @@ category: Slackware
 
 - lilo
 
--  mkinitrd -c -k 5.4.72 -m ext4 -r /dev/sdd2 -f ext4 (смотрите версию своего ядра)
+-  mkinitrd -c -k 5.15.145 -m ext4 -r /dev/sda2 -f ext4 (смотрите версию своего ядра и номер корневого раздела.У меня это /dev/sda2)
 
 - lilo
 
