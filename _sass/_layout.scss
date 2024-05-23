@@ -366,6 +366,17 @@ div.post_title span.date {
 
 .small-font{
   font-size:$small-font-size;
+  a {
+    color: #000000;
+    border-bottom:1px dotted;
+    text-decoration:none;
+  }
+
+  
+  a:hover {
+    color:red;
+    border-bottom:1px dotted;
+  }
 }
 
 /* Media Queries
