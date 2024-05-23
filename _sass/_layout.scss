@@ -26,6 +26,18 @@ body {
   color: #99999a;
   background-color: #FAFAFB;
 
+  .red {
+    a {
+      color: #666;
+      border-bottom:1px dotted;
+      text-decoration:none;
+    }
+    a:hover {
+      color:red;
+      border-bottom:1px dotted;
+    }
+  }
+
   .left {
     a {
       color: #666;
