@@ -27,13 +27,9 @@ body {
   background-color: #FAFAFB;
 
   .red {
-    a {
-      color: red;
-      border-bottom:1px dotted;
-      text-decoration:none;
-    }
+    
     a:hover {
-      color:#666;
+      color:red;
       border-bottom:1px dotted;
     }
   }
